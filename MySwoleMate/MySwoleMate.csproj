@@ -76,6 +76,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scheduler.aspx" />
     <Content Include="ViewWorkout.aspx" />
     <Content Include="Workouts.aspx" />
     <Content Include="WebClassDiagram.cd" />
@@ -171,6 +172,13 @@
       <DependentUpon>MySwoleMate.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduler.aspx.cs">
+      <DependentUpon>Scheduler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scheduler.aspx.designer.cs">
+      <DependentUpon>Scheduler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Trainees.aspx.cs">
       <DependentUpon>Trainees.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
