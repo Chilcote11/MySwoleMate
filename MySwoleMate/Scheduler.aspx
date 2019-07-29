@@ -19,8 +19,8 @@
                         <Columns>
                             <asp:HyperLinkField Text="Edit" DataNavigateUrlFields="ScheduleID"
                                 DataNavigateUrlFormatString="~/EditSchedule.aspx?ScheduleID={0}" ControlStyle-CssClass="btn btn-success btn-xs"
-                                ItemStyle-CssClass="text-center" />
-                            <asp:TemplateField ItemStyle-CssClass="text-center">
+                                ItemStyle-CssClass="text-center bg-warning" />
+                            <asp:TemplateField ItemStyle-CssClass="text-center bg-warning">
                                 <ItemTemplate>
                                     <%--The Delete functionality is --%>
                                     <asp:Button runat="server" ID="DeleteButton" CommandName="Delete"
@@ -33,7 +33,7 @@
                             <asp:BoundField DataField="LastModified" HeaderText="Last Modified" />
                             <asp:HyperLinkField Text="Enter Measurements" DataNavigateUrlFields="ScheduleID" 
                                 DataNavigateUrlFormatString="~/AddMeasurement.aspx?ScheduleID={0}" ControlStyle-CssClass="btn btn-success btn-xs"
-                                ItemStyle-CssClass="text-center" />
+                                ItemStyle-CssClass="text-center bg-warning" />
                         </Columns>
                     </asp:GridView>
                 </div>
