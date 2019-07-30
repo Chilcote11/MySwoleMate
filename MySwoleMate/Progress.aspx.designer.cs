@@ -13,12 +13,12 @@ namespace MySwoleMate {
     public partial class Progress {
         
         /// <summary>
-        /// AppointmentList control.
+        /// TraineeProgressList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView AppointmentList;
+        protected global::System.Web.UI.WebControls.GridView TraineeProgressList;
     }
 }
