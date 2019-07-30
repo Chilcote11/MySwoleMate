@@ -28,9 +28,9 @@
                                         OnClientClick="if(!confirm('Are you sure you wish to delete this appointment?')) return false;" />
                                 </ItemTemplate>
                             </asp:TemplateField>
-                            <asp:BoundField DataField="AppointmentDateAndTime" HeaderText="Appointment Date & Time" />
-                            <asp:BoundField DataField="TraineeName" HeaderText="Trainee Name" />
-                            <asp:BoundField DataField="LastModified" HeaderText="Last Modified" />
+                            <asp:BoundField DataField="AppointmentDateAndTime" HeaderText="Appointment Date & Time" ItemStyle-BackColor="#f0ad4e"/>
+                            <asp:BoundField DataField="TraineeName" HeaderText="Trainee Name" ItemStyle-BackColor="#f0ad4e"/>
+                            <asp:BoundField DataField="LastModified" HeaderText="Last Modified" ItemStyle-BackColor="#f0ad4e"/>
                             <asp:HyperLinkField Text="Enter Measurements" DataNavigateUrlFields="ScheduleID" 
                                 DataNavigateUrlFormatString="~/AddMeasurement.aspx?ScheduleID={0}" ControlStyle-CssClass="btn btn-success btn-xs"
                                 ItemStyle-CssClass="text-center bg-warning" />
