@@ -12,7 +12,7 @@ Last Updated: August 2019
 
 Welcome to the MySwoleMate application!  A .NET application designed to help personal trainers manage trainees and appointments
 
-Revature, a company committed to training entry-level software developers, provided the original template for this project (now making up around 10% of the overall application).  A few instructional videos and several hundred Google searches later, the first version of this application was birthed (see `branch: master`).  From there the application has been, and is still in the process of being upgraded to utilize the tools and frameworks listed below.
+Revature, a company committed to training entry-level software developers, provided the original template for this project (now making up around 15% of the overall application).  A few instructional videos and several hundred Google searches later, the first version of this application was birthed (see `branch: master`).  From there the application has been, and is still in the process of being upgraded to utilize the tools and frameworks listed below.
 
 Though unlikely to ever benefit a real personal trainer, this project has served me well as a thorough introduction to .NET development.
 
