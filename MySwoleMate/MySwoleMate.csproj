@@ -82,6 +82,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EFDBFirst.Context.cs</LastGenOutput>
       <DependentUpon>EFDBFirst.edmx</DependentUpon>
+      <CustomToolNamespace>MySwoleMate.Models</CustomToolNamespace>
     </Content>
     <Content Include="packages.config" />
     <Content Include="MasterPages\MySwoleMate.Master" />

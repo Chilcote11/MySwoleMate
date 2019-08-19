@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MySwoleMate
+namespace MySwoleMate.Models
 {
     using System;
     using System.Data.Entity;
