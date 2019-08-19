@@ -57,6 +57,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EFDBFirst.tt</DependentUpon>
     </Compile>
+    <Compile Include="Measurement.cs">
+      <DependentUpon>EFDBFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.cs">
+      <DependentUpon>EFDBFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Trainee.cs">
+      <DependentUpon>EFDBFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Workout.cs">
+      <DependentUpon>EFDBFirst.tt</DependentUpon>
+    </Compile>
     <Compile Include="WorkoutViewModel.cs" />
     <Compile Include="TraineeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
