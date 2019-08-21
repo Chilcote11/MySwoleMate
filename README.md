@@ -20,7 +20,7 @@ Though unlikely to ever benefit a real personal trainer, this project has served
 
 Developed using Virtual Studio, MS SQL Server, ADO.NET, ASP.NET Web Forms and Server Controls, and IIS Deployment
 
-Currently implementing ADO.NET’s Entity Framework, along with JavaScript's jQuery for a simpler and more robust application
+Currently implementing Entity Framework for simpler data access, along with jQuery for a more robust front end
 
 ## Deployment Instructions
 
