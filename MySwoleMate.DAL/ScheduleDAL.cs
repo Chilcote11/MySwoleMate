@@ -42,7 +42,7 @@ namespace MySwoleMate.DAL
         {
             using (MySwoleMateEntities db = new MySwoleMateEntities())
             {
-                db.Schedule.Add(schedule);
+                db.Schedules.Add(schedule);
                 db.SaveChanges();
             }
         }

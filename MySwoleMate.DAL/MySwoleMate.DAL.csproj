@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MeasurementDAL.cs" />
     <Compile Include="ScheduleDAL.cs" />
     <Compile Include="WorkoutDAL.cs" />
     <Compile Include="TraineeDAL.cs" />
