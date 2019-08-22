@@ -19,12 +19,19 @@ namespace MySwoleMate.BLL
 
         public List<Schedule> getAllSchedules()
         {
-            return data.GetAllSchedules();
+            List<Schedule> schedules = data.GetAllSchedules();
+            foreach(Schedule s in schedules)
+            {
+                s.DisplayScheduleDtTime = DtTimeDisplay(s.ScheduleDtTime);
+                s.DisplayInputDtTime = DtTimeDisplay(s.InputDtTime);
+            }
+            return schedules;
         }
 
         public Schedule GetScheduleById(int id)
         {
             return data.GetScheduleById(id);
+            // TODO use display methods here?  Never do in other BLLs
         }
 
         public void AddSchedule(Schedule schedule)
@@ -42,6 +49,9 @@ namespace MySwoleMate.BLL
             data.DeleteSchedule(schedule);
         }
 
-        // TODO: create any display formatting methods?
+        public string DtTimeDisplay(System.DateTime dateTime)
+        {
+            return dateTime.ToShortDateString();
+        }
     }
 }

@@ -60,6 +60,7 @@
     <Compile Include="Measurement.cs">
       <DependentUpon>EFDBFirst.tt</DependentUpon>
     </Compile>
+    <Compile Include="ScheduleViewModel.cs" />
     <Compile Include="Schedule.cs">
       <DependentUpon>EFDBFirst.tt</DependentUpon>
     </Compile>
