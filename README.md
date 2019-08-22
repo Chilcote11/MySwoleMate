@@ -26,4 +26,4 @@ Currently implementing Entity Framework for simpler data access, along with jQue
 
 To run this application, you'll need Visual Studio Community Edition and SQL Server Express
 - Installation instructions can be found above in SETUP.docx
-- Note: Because Entity Framework is not yet fully implemented, you'll want to checkout the master branch to use version 1 of the application
+- Note: This application is still in development, be sure to launch from the `master` branch
