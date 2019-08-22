@@ -13,5 +13,10 @@ namespace MySwoleMate
         {
 
         }
+
+        protected void AppointmentList_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            // empty for now, to get the page to display
+        }
     }
 }
